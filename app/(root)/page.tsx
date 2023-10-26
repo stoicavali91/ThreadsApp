@@ -1,9 +1,11 @@
-import Image from 'next/image'
-
+// import { UserButton } from "@clerk/nextjs";
+// import { ClerkProvider } from "@clerk/nextjs";
+ 
 export default function Home() {
   return (
-    <main>
-      <h1>Threads</h1>
-    </main>
+    <>
+      <h1>Home</h1>
+    </>
+    
   )
 }
