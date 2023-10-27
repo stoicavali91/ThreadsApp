@@ -13,12 +13,12 @@ const inter = Inter({subsets: ["latin"]})
 
 export default function RootLayout({children}:{children: React.ReactNode}){ //we are defining props Type
   return (
-    <ClerkProvider>
+   <ClerkProvider>
       <html lang="eng">
         <body className={`${inter.className} bg-dark-1`}>
           {children}
         </body>
       </html>
-    </ClerkProvider>
+   </ClerkProvider>
   )
 }
